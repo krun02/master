@@ -5,5 +5,5 @@
 5. Run the container using the image build above, <docker container run -d -p 5000:5000 sample-flask-app:v1>
 6. check the running container <docker container ls>
 7. navigate to browser and type the URL "http://localhost:5000/"
-8. to stop the container, <docker stop 'containerid from step6'>
-9. to remove the build image, <docker rm 'image if from step 4' -f>
+8. to stop the container, <docker stop 'containerid from step 6'>
+9. to remove the build image, <docker image rm 'image if from step 4' -f>
