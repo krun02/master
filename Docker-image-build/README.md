@@ -6,4 +6,4 @@
 6. check the running container <docker container ls>
 7. navigate to browser and type the URL "http://localhost:5000/"
 8. to stop the container, <docker stop 'containerid from step 6'>
-9. to remove the build image, <docker image rm 'image if from step 4' -f>
+9. to remove the build image, <docker image rm 'imageid if from step 4' -f>
